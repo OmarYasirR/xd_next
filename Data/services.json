@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "<RiVirusLine />",
+    "serv": "Infectious Bacteria",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": "rgba(255, 180, 0)",
+    "bk": "rgba(255, 180, 0, 0.2)"
+  },
+  {
+    "icon": "<GiLungs />", 
+    "serv": "Lung Infection",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": "rgb(234, 22, 177)",
+    "bk": "rgb(234, 22, 177,0.2)"
+  },
+  {
+    "icon": "<FaBacterium />",
+    "serv": "Viruses",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": "rgb(1, 87, 255)",
+    "bk": "rgb(1, 87, 255,0.2)"
+  },
+  {
+    "icon": "<GiTestTubes />",
+    "serv": "Laboratory",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": " rgb(16, 208, 161)",
+    "bk": "rgb(16, 208, 161,0.2)"
+  },
+  {
+    "icon": "<TbVaccine />",
+    "serv": "Vaccination",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": "rgb(8, 146, 176)",
+    "bk": "rgb(8, 146, 176,0.2)"
+  },
+  {
+    "icon": "<CiMedicalMask />",
+    "serv": "Face Mask",
+    "discribtion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, error numquam culpa placeat pariatur fuga illo veniam doloremque ea optio beatae velit",
+    "color": "rgb(255, 122, 0)",
+    "bk": "rgb(255, 122, 0,0.2)"
+  }
+]

@@ -1,0 +1,118 @@
+.detlCont{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blogImg{
+  width: 100%;
+}
+.detlCont p{
+  font-weight: 600;
+  line-height: 1.7;
+  font-size: 16px;
+}
+.img{
+  width: 400px;
+}
+.comments{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 35px 0;
+}
+.comment{
+  display: flex;
+  gap: 20px;
+}
+.comntImg{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.comntInfo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.date{
+  font-size: 14px;
+  font-weight: bold;
+  color: #ada7a7;
+}
+.comntBtn{
+  background-color: #ada7a7;
+    padding: 9px 30px;
+    border-radius: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+.formCont{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input{
+  height: 50px;
+}
+.input, .textarea{
+  outline: none;
+  border: 1px solid var(--main);
+  border-radius: 3px;
+  padding: 10px;
+}
+.input:focus, .textarea:focus{
+  border: 1px solid #026ab8;
+}
+.cat{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+}
+.item span{
+  display: inline-block
+}
+.item span:first-child{
+  color: #026ab8;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.item span:nth-child(2){
+  color: #ada7a7;
+}
+.authar{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.imgAuthr{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1200px) {
+  .detlCont{
+    display: flex;
+    align-items: center;
+  flex-direction: column-reverse;
+  }
+}
