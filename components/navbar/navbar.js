@@ -8,7 +8,7 @@ import { HiBars3 } from "react-icons/hi2";
 import { ImCross } from "react-icons/im";
 
 
-function navbar() {
+function Navbar() {
   const router = useRouter();
   const links = [
     { route: "Home", path: "/" },
@@ -73,4 +73,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

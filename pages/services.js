@@ -5,7 +5,7 @@ import Service from '../components/services/service'
 import Testimonial from '../components/Testimonial/Testimonial'
 import Seprator from '../components/seprator'
 
-function services() {
+function Services() {
   const [num, setNum] = useState(4);
   function* generator() {
     yield 5
@@ -43,4 +43,4 @@ function services() {
   )
 }
 
-export default services
+export default Services

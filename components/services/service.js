@@ -7,7 +7,7 @@ import {TbVaccine} from 'react-icons/tb'
 import {CiMedicalMask} from 'react-icons/ci'
 import {RiVirusLine} from 'react-icons/ri'
 
-export default function service() {
+export default function Service() {
   const icons = [<RiVirusLine />, <GiLungs />,<GiTestTubes />,<FaBacterium />,<TbVaccine />,<CiMedicalMask />]
   return (
     <div className={`${styles.service} container`}>
@@ -17,7 +17,7 @@ export default function service() {
       <h1 className='mainh1'>Specialized laboratory tests tailored to the patient</h1>
       <div className={styles.cont}>
         {data.map((item, i) => (
-          <div className={`${styles.box} box`} key ={i}>
+          <div className={`${styles.box} box`} key={i}>
             <div
               className={styles.icon}
               style={{background: item.bk,
