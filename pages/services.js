@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Landing from '../components/Landing/Landing'
 import Service from '../components/services/service'
 import Testimonial from '../components/Testimonial/Testimonial'
-import Seprator from '../components/seprator'
+import Seprator from '../components/Seprator'
 
 function Services() {
   const [num, setNum] = useState(4);
