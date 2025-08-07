@@ -1,7 +1,7 @@
 import React from 'react'
 import Blogs from '../../Data/Blog.json'
-import Landing from '../../components/Landing/Landing'
-import Seprator from '../../components/seprator'
+import Landing from '../../components/Landing/Landing.js'
+import Seprator from '../../components/Seprator.js'
 import style from '../../styles/blogpost.module.css'
 
 

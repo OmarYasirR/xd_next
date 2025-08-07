@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import Landing from "../components/Landing/Landing";
-import Service from '../components/services/service'
+import Landing from "../components/Landing/Landing.js";
+import Service from '../components/services/service.js'
 import styles from "../styles/About.module.css";
-import Seprator from "../components/seprator";
+import Seprator from "../components/Seprator.js";
 
 function about() {
   const team = [

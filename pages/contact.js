@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
-import Landing from '../components/Landing/Landing'
+import Landing from '../components/Landing/Landing.js'
 import styles from '../styles/contact.module.css'
-import Seprator from '../components/seprator'
+import Seprator from '../components/Seprator.js'
 
 function contact() {
   return (
