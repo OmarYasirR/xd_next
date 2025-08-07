@@ -8,7 +8,7 @@ import {CiMedicalMask} from 'react-icons/ci'
 import {RiVirusLine} from 'react-icons/ri'
 
 export default function Service() {
-  const icons = [<RiVirusLine />, <GiLungs />,<GiTestTubes />,<FaBacterium />,<TbVaccine />,<CiMedicalMask />]
+  const icons = [<RiVirusLine key={'VirusLine'} />, <GiLungs key={'GiLungs'} />,<GiTestTubes key='jj' />,<FaBacterium key='oo'/>,<TbVaccine key={'gy'} />,<CiMedicalMask key='oopp' />]
   return (
     <div className={`${styles.service} container`}>
       <h4 className="mainHeading">
@@ -24,7 +24,7 @@ export default function Service() {
                 color: item.color
               }}
             >
-              {icons[i]}
+              <div key={i}>{icons[i]}</div>
             </div>
             <h3>{item.serv}</h3>
             <p className='pa'>{item.discribtion}</p>
